@@ -85,4 +85,86 @@ footer {
   text-shadow: 0 0 15px white, 0 0 20px white, 0 0 50px white;
 }
 
+.card.p-3 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card.p-4 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.formulario {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  border-radius: 15px;
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 8px;
+  line-height: 2;
+  padding: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 20px;
+}
+
+.button, button.btn.btn-secondary.bnt-lg.btn-block, a.btn.btn-primary, .form-row button {
+  background-color: rgb(44, 44, 44);
+  border: 0 none rgba(100, 100, 100, 0);
+  color: white;
+  font-family: "Sulphur Point", sans-serif;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 1px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 4px 4px 4px 0px rgb(0, 0, 0);
+}
+
+.form-row button {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+
+.form-row button:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+a.btn.btn-primary {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+
+button.btn.btn-secondary.bnt-lg.btn-block {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+
 /*# sourceMappingURL=style.css.map */
