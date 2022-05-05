@@ -1,0 +1,233 @@
+.card.p-3 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card.p-4 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.formulario {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  border-radius: 15px;
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 8px;
+  line-height: 2;
+  padding: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 20px;
+}
+
+body {
+  background-image: url(../assets/img/backgr.png);
+  size: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+  transition: 1s;
+}
+@media screen and (min-width: 490px) {
+  .logo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    flex-wrap: wrap;
+    transition: 1s;
+  }
+}
+
+.logo img {
+  height: 150px;
+  margin-right: 50px;
+}
+
+h1 {
+  margin: 0%;
+  padding: 10px;
+  background-color: none;
+  color: white;
+  font-family: "Major Mono Display", monospace;
+  font-size: 60px;
+  font-weight: lighter;
+  letter-spacing: 10px;
+  text-align: left;
+  flex-wrap: wrap;
+}
+h1 h1 span {
+  width: 90px;
+  font-size: 30px;
+  justify-content: center;
+}
+
+.h1 span {
+  transition: 1.5s linear;
+}
+
+.navbar {
+  background-color: rgba(172, 172, 172, 0.103);
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 25px rgb(200, 200, 200);
+}
+
+.nav-link {
+  padding: 3px;
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  letter-spacing: 8px;
+  text-decoration: none;
+  transition: 0.5s;
+  flex-wrap: wrap;
+  opacity: 100;
+  transition: 3s;
+}
+
+a.nav-link:hover {
+  background-color: rgb(75, 75, 75);
+  text-shadow: 0 0 15px white, 0 0 20px white, 0 0 50px white;
+}
+
+footer {
+  list-style: none;
+  background-color: rgba(252, 250, 250, 0.082);
+  width: auto;
+  border-block: 1px solid white;
+  text-align: center;
+}
+
+.icons img {
+  display: inline-block;
+  justify-content: space-between;
+  margin: 10px;
+  background-color: rgb(100, 100, 100);
+  border-radius: 10px;
+  height: 40px;
+  padding: 1px;
+  margin-bottom: 25px;
+  flex-wrap: wrap;
+}
+
+.icons img:hover {
+  background-color: rgb(75, 75, 75);
+  text-shadow: 0 0 15px white, 0 0 20px white, 0 0 50px white;
+}
+
+.card.p-3 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card.p-4 {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.formulario {
+  background: rgb(37, 37, 37);
+  box-shadow: inset 1px 1px 2px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 8px 8px 8px 0px rgb(0, 0, 0);
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  max-width: 900px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(27, 27, 27);
+  border-radius: 15px;
+  font-family: "Sulphur Point", sans-serif;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 8px;
+  line-height: 2;
+  padding: 40px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+  border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 20px;
+}
+
+.button, button.btn.btn-secondary.bnt-lg.btn-block, a.btn.btn-primary, .form-row button {
+  background-color: rgb(44, 44, 44);
+  border: 0 none rgba(100, 100, 100, 0);
+  color: white;
+  font-family: "Sulphur Point", sans-serif;
+  cursor: pointer;
+  box-shadow: inset 1px 1px 1px 0px rgb(150, 80, 80), inset -12px -12px 14px 0px rgb(27, 27, 27), 4px 4px 4px 0px rgb(0, 0, 0);
+}
+
+.form-row button {
+  padding: 15px;
+  border-radius: 15px;
+  font-size: 20px;
+  letter-spacing: 15px;
+}
+
+.form-row button:hover {
+  background-color: rgb(95, 95, 95);
+}
+
+a.btn.btn-primary {
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+
+button.btn.btn-secondary.bnt-lg.btn-block {
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 15px;
+  letter-spacing: 8px;
+}
+
+/*# sourceMappingURL=style.css.map */

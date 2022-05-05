@@ -1,0 +1,38 @@
+.button {
+    background-color:rgb(44, 44, 44);
+    border: 0 none rgba(100, 100, 100, 0);
+    color:white;
+    font-family: 'Sulphur Point', sans-serif;
+    cursor: pointer;
+    box-shadow:
+          inset 1px 1px 1px 0px rgb(150, 80, 80),
+          inset -12px -12px 14px 0px rgb(27, 27, 27),
+          4px 4px 4px 0px rgba(0, 0, 0, 1);
+}
+    .form-row button {
+        @extend .button;
+        padding:15px;
+        border-radius: 15px;
+        font-size: 20px;
+        letter-spacing: 15px;
+
+    }
+    .form-row button:hover {
+        background-color: rgb(95, 95, 95);
+    }
+
+    a.btn.btn-primary {  
+        @extend .button;
+        padding:10px;
+        border-radius: 8px;
+        font-size: 15px;
+        letter-spacing: 8px;
+    }
+      
+    button.btn.btn-secondary.bnt-lg.btn-block {
+       @extend .button;
+        padding:10px;
+        border-radius: 5px;
+        font-size: 15px;
+        letter-spacing: 8px;
+    }
