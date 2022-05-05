@@ -42,3 +42,10 @@
     border: 0px none rgba(100, 100, 100, 0);
     border-radius: 20px;
 }
+
+@mixin media-up ($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+}
+

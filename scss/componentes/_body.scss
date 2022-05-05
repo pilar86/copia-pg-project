@@ -1,3 +1,6 @@
+@import "../base/mapas";
+@import "../base/mixins";
+
 body {
     background-image: url(../assets/img/backgr.png);
     size: auto;
@@ -12,7 +15,18 @@ body {
         padding: 40px;
         flex-wrap: wrap;
         transition: 1s;
+
+      @include media-up (sm){
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding:5px;
+        flex-wrap: wrap;
+        transition: 1s;
+        
       }
+    }
+
     .logo img {
         height: 150px;
         margin-right: 50px;
@@ -29,9 +43,14 @@ body {
         letter-spacing: 10px;
         text-align: left;
         flex-wrap: wrap;
+      
+        h1 span{
+          width:90px;
+          font-size: 30px;
+          justify-content:center;  
+          }
       }  
 
       .h1 span{
         transition: 1.5s linear;
-    }
-
+      }
